@@ -1,4 +1,5 @@
 function Gallery () {
+  
     return (
         <section id="gallery" className="gallery">
 
