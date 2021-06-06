@@ -8,23 +8,26 @@ import WhyUs from './whyus';
 import Menu from './menu';
 import Specials from './specials';
 import Events from './events';
+import {Component} from "react";
 
-function Main() {
+class Main extends Component {
+    render() {
 
-    return (
-        <>
-            <About/>
-            <WhyUs/>
-            <Menu/>
-            <Specials/>
-            <Events/>
-            <Bookatable/>
-            <Testimonial/>
-            <Gallery/>
-            <Chef/>
-            <Contact/>
-        </>
-    );
+        return (
+            <>
+                <About/>
+                <WhyUs/>
+                <Menu/>
+                <Specials/>
+                <Events/>
+                <Bookatable/>
+                <Testimonial/>
+                <Gallery/>
+                <Chef/>
+                <Contact/>
+            </>
+        );
+    }
 }
 
 export default Main;
