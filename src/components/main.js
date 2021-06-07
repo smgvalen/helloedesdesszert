@@ -8,13 +8,14 @@ import WhyUs from './whyus';
 import Menu from './menu';
 import Specials from './specials';
 import Events from './events';
+import {about} from "../contents";
 
 function Main () {
 
 
         return (
             <>
-                <About/>
+                <About title={about.title} list={about.list}/>
                 <WhyUs/>
                 <Menu/>
                 <Specials/>
