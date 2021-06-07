@@ -8,10 +8,9 @@ import WhyUs from './whyus';
 import Menu from './menu';
 import Specials from './specials';
 import Events from './events';
-import {Component} from "react";
 
-class Main extends Component {
-    render() {
+function Main () {
+
 
         return (
             <>
@@ -27,7 +26,7 @@ class Main extends Component {
                 <Contact/>
             </>
         );
-    }
+
 }
 
 export default Main;
