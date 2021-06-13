@@ -10,7 +10,7 @@ function Hero() {
 
                 <div className="btns">
                     <a href="#menu" className="btn-menu animated fadeInUp scrollto">Our Menu</a>
-                    <a href="#book-a-table" className="btn-book animated fadeInUp scrollto">Book a Table</a>
+                    <a href="#order-a-cake" className="btn-book animated fadeInUp scrollto">Book a Table</a>
                 </div>
                 </div>
                 <div className="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">

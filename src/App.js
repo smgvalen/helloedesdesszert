@@ -1,14 +1,14 @@
-import Topbar from './components/topbar';
-import Header from './components/header';
-import Hero from './components/hero';
-import Main from './components/main';
-import Footer from './components/footer';
+import TopBar from './components/TopBar';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 
 function App() {
   return (
     <>
-        <Topbar/>
+        <TopBar/>
         <Header/>
         <Hero/>
         <Main/>

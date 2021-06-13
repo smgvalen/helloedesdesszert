@@ -14,9 +14,7 @@ function About(props) {
                     <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
                         <h3>{props.title}</h3>
                         <p className="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            {props.intro}
                         </p>
                         <ul>
                             {props.list.map(
@@ -28,11 +26,7 @@ function About(props) {
                             )}
                         </ul>
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
+                            {props.etc}
                         </p>
                     </div>
                 </div>

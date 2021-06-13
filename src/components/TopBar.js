@@ -1,6 +1,6 @@
 
 
-function Topbar() {
+function TopBar() {
   return (
     <div id="topbar" className="d-flex align-items-center fixed-top">
     <div className="container d-flex justify-content-center justify-content-md-between">
@@ -21,4 +21,4 @@ function Topbar() {
   );
 }
 
-export default Topbar;
+export default TopBar;
