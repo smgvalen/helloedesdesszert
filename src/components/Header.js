@@ -8,8 +8,6 @@ function Header() {
 
                 <h1 className="logo me-auto me-lg-0"><a href={header.h1.href}>{header.h1.title}</a></h1>
 
-                {/*<a href="index.html" className="logo me-auto me-lg-0"><img src={header.logo} alt=""*/}
-                {/*                                                           className="img-fluid"/></a>*/}
                 <nav id="navbar" className="navbar order-last order-lg-0">
                     <ul>
                         {header.links.map(

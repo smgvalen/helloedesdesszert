@@ -1,28 +1,32 @@
-import Gallery from './Gallery';
-import Chef from './Chef';
-import Contact from './Contact';
-import Testimonial from './Testimonial';
-import OrderACake from './OrderACake';
-import About from './About';
-import WhyUs from './WhyUs';
-import Menu from './Menu';
-import Specials from './Specials';
-import Events from './Events';
-import {about} from "../contents";
+import Gallery from './main/Gallery';
+import Contact from './main/Contact';
+import OrderACake from './main/OrderACake';
+import About from './main/About';
+import Menu from './main/menu/Menu';
+import Specials from './main/Specials';
+import {about, menu} from "../contents";
 
 function Main() {
 
     return (
         <>
-            <About title={about.title} intro={about.intro} list={about.list} etc={about.etc}/>
-            <WhyUs/>
-            <Menu/>
+            <About
+                title={about.title}
+                intro={about.intro}
+                list={about.list}
+                etc={about.etc}
+                image={about.image.src}
+                alt={about.image}
+            />
+            <Menu
+                title={menu.title}
+                subtitle={menu.subtitle}
+                cakeTypes={menu.cakeTypes}
+                cakes={menu.cakes}
+            />
             <Specials/>
-            <Events/>
             <OrderACake/>
-            <Testimonial/>
             <Gallery/>
-            <Chef/>
             <Contact/>
         </>
     );
