@@ -43,9 +43,12 @@ function Header() {
                         {/*</li>*/}
                         {/*<li><a className="nav-link scrollto" href="#contact">Contact</a></li>*/}
                     </ul>
-                    <i className="bi bi-list mobile-nav-toggle"></i>
+                    <i className="bi bi-list mobile-nav-toggle"/>
                 </nav>
-                <a href={header.order.href} className="order-a-cake-btn scroll to d-none d-lg-flex">{header.order.title}</a>
+                <a href={header.order.href}
+                   className="order-a-cake-btn scroll to d-none d-lg-flex">
+                    {header.order.title}
+                </a>
             </div>
         </header>
     );

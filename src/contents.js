@@ -1,5 +1,5 @@
 export const about = {
-    title: "Hello Édes Desszertműhely",
+    title: "Hello Édes Desszertműhely és Pékség",
     intro: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut\n" +
         "labore et dolore\n" +
         "magna aliqua.",
@@ -14,6 +14,26 @@ export const about = {
             src: "assets/img/about.jpg",
             alt: "cake torta hellóédes süti"
         }
+}
+
+export const hero = {
+    greeting: "Üdvözlünk a ",
+    title: "Helló Édes Desszertműhelynél",
+    subtitle: "Delivering great food for more than 18 years!",
+    buttonMenu:
+        {
+            title: "Kínálat",
+            href: "#menu"
+        },
+    buttonOrder:
+        {
+            title: "Rendelés",
+            href: "#order-a-cake"
+        }
+    ,
+    introVideo: {
+        href: "https://www.youtube.com/watch?v=GlrxcuEDyF8"
+    }
 }
 
 export const menu = {
@@ -38,7 +58,7 @@ export const menu = {
             src: "assets/img/menu/bread-barrel.jpg",
             alt: "",
             name: "Bread Barrel",
-            price: "$6.95",
+            price: "$1.95",
             description: " Lorem, deren, trataro, filede, nerada",
             type: ["parkettás", "*"]
         },
@@ -46,7 +66,7 @@ export const menu = {
             src: "assets/img/menu/bread-barrel.jpg",
             alt: "",
             name: "Bread Barrel",
-            price: "$6.95",
+            price: "$2.95",
             description: " Lorem, deren, trataro, filede, nerada",
             type: ["asztali", "*"]
         },
@@ -54,7 +74,7 @@ export const menu = {
             src: "assets/img/menu/bread-barrel.jpg",
             alt: "",
             name: "Bread Barrel",
-            price: "$6.95",
+            price: "$3.95",
             description: " Lorem, deren, trataro, filede, nerada",
             type: ["elfogadható", "*"]
         },
@@ -102,6 +122,79 @@ export const header = {
     order: {
         title: "Rendelés",
         href: "#order-a-cake"
+    }
+}
+
+export const footer = {
+    h3: "Helló Édes Desszertműhely",
+    street: "Pál utca 2",
+    city: "8360 Keszthely",
+    phone: {
+        title: "Telefon:",
+        number: " +36 30 4969 391"
+    },
+    email: {
+        title: "Email: ",
+        address: " helloedesdesszert@gmail.com"
+    },
+    social:
+        {
+            facebook: "https://www.facebook.com/helloedesdesszertek",
+            instagram: "https://www.instagram.com/helloedesdesszert"
+        },
+    h4: [
+        "Hasznos Linkek",
+        "Our Services",
+        "Our Newsletter"
+    ],
+    links: [
+        {
+            href: "#",
+            title: "Home"
+        },
+        {
+            href: "#",
+            title: "Rólunk"
+        },
+        {
+            href: "#",
+            title: "Specialitásunk"
+        },
+        {
+            href: "#",
+            title: "Terms of Service"
+        },
+        {
+            href: "#",
+            title: "Privacy policy"
+        }
+    ],
+    services: [
+        {
+            href: "#",
+            title: "Web Design"
+        },
+        {
+            href: "#",
+            title: "Web Development"
+        },
+        {
+            href: "#",
+            title: "Product Management"
+        },
+        {
+            href: "#",
+            title: "Marketing"
+        },
+        {
+            href: "#",
+            title: "Graphic Design"
+        }
+    ],
+    credits: {
+        title: "Restaurantly",
+        href: "https://bootstrapmade.com/",
+        ir: "BootstrapMade"
     }
 }
 
