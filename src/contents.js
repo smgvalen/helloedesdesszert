@@ -198,3 +198,52 @@ export const footer = {
     }
 }
 
+export const gallery = {
+    h2: {
+        title: "Galéria",
+        subtitle: "Néhány fotó rólunk"
+    },
+    images: [
+        {
+            href: "/assets/img/gallery/gallery-1.jpg",
+            src: "/assets/img/gallery/gallery-1.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-2.jpg",
+            src: "/assets/img/gallery/gallery-2.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-3.jpg",
+            src: "/assets/img/gallery/gallery-3.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-4.jpg",
+            src: "/assets/img/gallery/gallery-4.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-5.jpg",
+            src: "/assets/img/gallery/gallery-5.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-6.jpg",
+            src: "/assets/img/gallery/gallery-6.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-7.jpg",
+            src: "/assets/img/gallery/gallery-7.jp",
+            alt: ""
+        },
+        {
+            href: "/assets/img/gallery/gallery-8.jpg",
+            src: "/assets/img/gallery/gallery-8.jp",
+            alt: ""
+        }
+    ]
+}
+
