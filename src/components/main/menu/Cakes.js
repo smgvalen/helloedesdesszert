@@ -6,9 +6,9 @@ function Cakes(props) {
         <div className="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
             {props.cakes.map(
-                (cake) => {
+                (cake, index) => {
                     return (
-                        <Cake
+                        <Cake key={index}
                             src={cake.src}
                             alt={cake.alt}
                             name={cake.name}

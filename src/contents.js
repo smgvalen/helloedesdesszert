@@ -15,7 +15,30 @@ export const about = {
             alt: "cake torta hellóédes süti"
         }
 }
+export const contact = {
+    title: "Kapcsolat",
+    subtitle: "Így érsz el minket",
+    address: {
+        title: "Helyszín:",
+        location: "8360 Keszthely, Pál utca 2"
+    },
+    open: {
+        title: "Nyitvatartás",
+        open_days: "Kedd-Szombat:",
+        hours: "7:00 - 15:00",
+        closed_days: "Vasárnap-Hétfő:",
+        closed: "Pihi"
+    },
+    email : {
+      title: "Email:",
+      email: "helloedesdesszert@gmail.com"
+    },
+    phone : {
+        title: "Telefon:",
+        number: "+36 30 4969 391"
+    }
 
+}
 export const hero = {
     greeting: "Üdvözlünk a ",
     title: "Helló Édes Desszertműhelynél",

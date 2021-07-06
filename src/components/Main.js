@@ -1,10 +1,10 @@
-import Gallery from './main/Gallery';
+import Gallery from './main/gallery/Gallery';
 import Contact from './main/Contact';
 import OrderACake from './main/OrderACake';
 import About from './main/About';
 import Menu from './main/menu/Menu';
 import Specials from './main/Specials';
-import {about, menu} from "../contents";
+import {about, contact, gallery, menu} from "../contents";
 
 function Main() {
 
@@ -26,8 +26,21 @@ function Main() {
             />
             <Specials/>
             <OrderACake/>
-            <Gallery/>
-            <Contact/>
+            <Gallery
+                h2={gallery.h2}
+                subtitle={gallery.h2}
+                href={gallery.images}
+                src={gallery.images}
+                alt={gallery.images}
+            />
+            <Contact
+                title={contact.title}
+                subtitle={contact.subtitle}
+                address={contact.address}
+                open={contact.open}
+                email={contact.email}
+                phone={contact.phone}
+            />
         </>
     );
 }
